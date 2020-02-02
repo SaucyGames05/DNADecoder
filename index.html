@@ -13,10 +13,31 @@
 			color: #ededed;
 			position: auto;
 		}
+		.button {
+  			padding: 15px 25px;
+  			font-size: 24px;
+  			text-align: center;
+  			cursor: pointer;
+  			outline: none;
+  			color: #fff;
+  			background-color: #4CAF50;
+  			border: none;
+  			border-radius: 15px;
+  			box-shadow: 0 9px #999;
+		}
+
+		.button:hover {background-color: #3e8e41}
+
+		.button:active {
+  			background-color: #3e8e41;
+  			box-shadow: 0 5px #666;
+  			transform: translateY(4px);
+		}
 	</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<h1><b>DNA Decoder</b></h1>
+	<button class="button" onclick="window.location.href = 'https://drive.google.com/uc?id=19dYDnK2zWggUkcmJWLqLnMTwYcGqugVe&export=download'">Download <i class="fas fa-cloud-download-alt"></i></button>
 </body>
 </html>
